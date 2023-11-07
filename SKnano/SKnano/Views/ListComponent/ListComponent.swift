@@ -9,10 +9,28 @@ import SwiftUI
 
 struct ListComponent: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            RoundedRectangle(cornerRadius: 25.0)
+                .foregroundStyle(Color.CustomRadialGradient)
+                .background {
+                    HStack {
+                        Text("Riven")
+                            .font(Font.custom("BeaufortforLOL-BoldItalic", size: 40))
+                            .foregroundStyle(.white)
+                        Image("RivenSentinela")
+                            .resizable()
+                            .clipShape(RoundedRectangle(cornerRadius: 25))
+                            .scaledToFit()
+                    }
+                }
+                .frame(maxHeight: 150)
+                .padding()
+            
+        }
     }
 }
 
 #Preview {
     ListComponent()
+        .previewLayout(.sizeThatFits)
 }

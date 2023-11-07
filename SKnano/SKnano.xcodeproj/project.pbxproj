@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285275A92AFAB50600DFE4CF /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285275A82AFAB50600DFE4CF /* ListComponent.swift */; };
+		2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896B8ED2AFAB8EA00983EAE /* Color.swift */; };
+		2896B8FC2AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F12AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf */; };
+		2896B8FD2AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F22AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf */; };
+		2896B8FE2AFAC20F00983EAE /* BeaufortforLOL-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F32AFAC20F00983EAE /* BeaufortforLOL-Regular.ttf */; };
+		2896B8FF2AFAC20F00983EAE /* BeaufortforLOL-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F42AFAC20F00983EAE /* BeaufortforLOL-Bold.ttf */; };
+		2896B9002AFAC20F00983EAE /* BeaufortforLOL-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F52AFAC20F00983EAE /* BeaufortforLOL-Light.ttf */; };
+		2896B9012AFAC20F00983EAE /* BeaufortforLOL-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F62AFAC20F00983EAE /* BeaufortforLOL-Heavy.ttf */; };
+		2896B9022AFAC20F00983EAE /* BeaufortforLOL-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F72AFAC20F00983EAE /* BeaufortforLOL-BoldItalic.ttf */; };
+		2896B9032AFAC20F00983EAE /* BeaufortforLOL-BoldItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F82AFAC20F00983EAE /* BeaufortforLOL-BoldItalic(1).ttf */; };
+		2896B9042AFAC20F00983EAE /* BeaufortforLOL-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F92AFAC20F00983EAE /* BeaufortforLOL-MediumItalic.ttf */; };
+		2896B9052AFAC20F00983EAE /* BeaufortforLOL-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8FA2AFAC20F00983EAE /* BeaufortforLOL-Italic.ttf */; };
+		2896B9062AFAC20F00983EAE /* BeaufortforLOL-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8FB2AFAC20F00983EAE /* BeaufortforLOL-HeavyItalic.ttf */; };
+		2896B90E2AFAC29C00983EAE /* Spiegel_TT_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B9082AFAC29B00983EAE /* Spiegel_TT_Bold.ttf */; };
+		2896B90F2AFAC29C00983EAE /* Spiegel_TT_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B9092AFAC29B00983EAE /* Spiegel_TT_Regular.ttf */; };
+		2896B9102AFAC29C00983EAE /* Spiegel_TT_SemiBold_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B90A2AFAC29B00983EAE /* Spiegel_TT_SemiBold_Italic.ttf */; };
+		2896B9112AFAC29C00983EAE /* Spiegel_TT_SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B90B2AFAC29B00983EAE /* Spiegel_TT_SemiBold.ttf */; };
+		2896B9122AFAC29C00983EAE /* Spiegel_TT_Regular_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B90C2AFAC29B00983EAE /* Spiegel_TT_Regular_Italic.ttf */; };
+		2896B9132AFAC29C00983EAE /* Spiegel_TT_Bold_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B90D2AFAC29B00983EAE /* Spiegel_TT_Bold_Italic.ttf */; };
 		28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */; };
 		28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED812AF98578000B95B7 /* ContentView.swift */; };
 		28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED832AF98579000B95B7 /* Assets.xcassets */; };
@@ -14,6 +33,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		285275A82AFAB50600DFE4CF /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		2896B8ED2AFAB8EA00983EAE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2896B8F12AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Medium.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Medium.ttf"; sourceTree = "<group>"; };
+		2896B8F22AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-LightItalic.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-LightItalic.ttf"; sourceTree = "<group>"; };
+		2896B8F32AFAC20F00983EAE /* BeaufortforLOL-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Regular.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Regular.ttf"; sourceTree = "<group>"; };
+		2896B8F42AFAC20F00983EAE /* BeaufortforLOL-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Bold.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf"; sourceTree = "<group>"; };
+		2896B8F52AFAC20F00983EAE /* BeaufortforLOL-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Light.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Light.ttf"; sourceTree = "<group>"; };
+		2896B8F62AFAC20F00983EAE /* BeaufortforLOL-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Heavy.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Heavy.ttf"; sourceTree = "<group>"; };
+		2896B8F72AFAC20F00983EAE /* BeaufortforLOL-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-BoldItalic.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2896B8F82AFAC20F00983EAE /* BeaufortforLOL-BoldItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-BoldItalic(1).ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-BoldItalic(1).ttf"; sourceTree = "<group>"; };
+		2896B8F92AFAC20F00983EAE /* BeaufortforLOL-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-MediumItalic.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2896B8FA2AFAC20F00983EAE /* BeaufortforLOL-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Italic.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Italic.ttf"; sourceTree = "<group>"; };
+		2896B8FB2AFAC20F00983EAE /* BeaufortforLOL-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-HeavyItalic.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		2896B9082AFAC29B00983EAE /* Spiegel_TT_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Spiegel_TT_Bold.ttf; path = "../../../../../../../../Downloads/Fonts_Package/Spiegel-TTF/Spiegel_TT_Bold.ttf"; sourceTree = "<group>"; };
+		2896B9092AFAC29B00983EAE /* Spiegel_TT_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Spiegel_TT_Regular.ttf; path = "../../../../../../../../Downloads/Fonts_Package/Spiegel-TTF/Spiegel_TT_Regular.ttf"; sourceTree = "<group>"; };
+		2896B90A2AFAC29B00983EAE /* Spiegel_TT_SemiBold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Spiegel_TT_SemiBold_Italic.ttf; path = "../../../../../../../../Downloads/Fonts_Package/Spiegel-TTF/Spiegel_TT_SemiBold_Italic.ttf"; sourceTree = "<group>"; };
+		2896B90B2AFAC29B00983EAE /* Spiegel_TT_SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Spiegel_TT_SemiBold.ttf; path = "../../../../../../../../Downloads/Fonts_Package/Spiegel-TTF/Spiegel_TT_SemiBold.ttf"; sourceTree = "<group>"; };
+		2896B90C2AFAC29B00983EAE /* Spiegel_TT_Regular_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Spiegel_TT_Regular_Italic.ttf; path = "../../../../../../../../Downloads/Fonts_Package/Spiegel-TTF/Spiegel_TT_Regular_Italic.ttf"; sourceTree = "<group>"; };
+		2896B90D2AFAC29B00983EAE /* Spiegel_TT_Bold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Spiegel_TT_Bold_Italic.ttf; path = "../../../../../../../../Downloads/Fonts_Package/Spiegel-TTF/Spiegel_TT_Bold_Italic.ttf"; sourceTree = "<group>"; };
 		28B9ED7C2AF98578000B95B7 /* SKnano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKnano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKnanoApp.swift; sourceTree = "<group>"; };
 		28B9ED812AF98578000B95B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +70,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		285275A52AFAB29B00DFE4CF /* Champion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Champion;
+			sourceTree = "<group>";
+		};
+		285275A72AFAB4EA00DFE4CF /* ListComponent */ = {
+			isa = PBXGroup;
+			children = (
+				285275A82AFAB50600DFE4CF /* ListComponent.swift */,
+			);
+			path = ListComponent;
+			sourceTree = "<group>";
+		};
+		2896B8EC2AFAB8D600983EAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2896B8ED2AFAB8EA00983EAE /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2896B8EF2AFAC0F600983EAE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2896B9072AFAC28E00983EAE /* Spiegel */,
+				2896B8F02AFAC1F800983EAE /* BeaufortForLoL */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2896B8F02AFAC1F800983EAE /* BeaufortForLoL */ = {
+			isa = PBXGroup;
+			children = (
+				2896B8F42AFAC20F00983EAE /* BeaufortforLOL-Bold.ttf */,
+				2896B8F72AFAC20F00983EAE /* BeaufortforLOL-BoldItalic.ttf */,
+				2896B8F82AFAC20F00983EAE /* BeaufortforLOL-BoldItalic(1).ttf */,
+				2896B8F62AFAC20F00983EAE /* BeaufortforLOL-Heavy.ttf */,
+				2896B8FB2AFAC20F00983EAE /* BeaufortforLOL-HeavyItalic.ttf */,
+				2896B8FA2AFAC20F00983EAE /* BeaufortforLOL-Italic.ttf */,
+				2896B8F52AFAC20F00983EAE /* BeaufortforLOL-Light.ttf */,
+				2896B8F22AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf */,
+				2896B8F12AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf */,
+				2896B8F92AFAC20F00983EAE /* BeaufortforLOL-MediumItalic.ttf */,
+				2896B8F32AFAC20F00983EAE /* BeaufortforLOL-Regular.ttf */,
+			);
+			path = BeaufortForLoL;
+			sourceTree = "<group>";
+		};
+		2896B9072AFAC28E00983EAE /* Spiegel */ = {
+			isa = PBXGroup;
+			children = (
+				2896B90D2AFAC29B00983EAE /* Spiegel_TT_Bold_Italic.ttf */,
+				2896B9082AFAC29B00983EAE /* Spiegel_TT_Bold.ttf */,
+				2896B90C2AFAC29B00983EAE /* Spiegel_TT_Regular_Italic.ttf */,
+				2896B9092AFAC29B00983EAE /* Spiegel_TT_Regular.ttf */,
+				2896B90A2AFAC29B00983EAE /* Spiegel_TT_SemiBold_Italic.ttf */,
+				2896B90B2AFAC29B00983EAE /* Spiegel_TT_SemiBold.ttf */,
+			);
+			path = Spiegel;
+			sourceTree = "<group>";
+		};
 		28B9ED732AF98578000B95B7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +152,7 @@
 		28B9ED7E2AF98578000B95B7 /* SKnano */ = {
 			isa = PBXGroup;
 			children = (
+				2896B8EC2AFAB8D600983EAE /* Extensions */,
 				28B9ED8F2AF985A7000B95B7 /* Views */,
 				28B9ED8E2AF9859C000B95B7 /* Notification */,
 				28B9ED912AF9865C000B95B7 /* CloudKit */,
@@ -87,6 +189,8 @@
 		28B9ED8F2AF985A7000B95B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				285275A72AFAB4EA00DFE4CF /* ListComponent */,
+				285275A52AFAB29B00DFE4CF /* Champion */,
 				28B9ED812AF98578000B95B7 /* ContentView.swift */,
 			);
 			path = Views;
@@ -95,6 +199,7 @@
 		28B9ED902AF985B4000B95B7 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				2896B8EF2AFAC0F600983EAE /* Fonts */,
 				28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */,
 			);
 			path = System;
@@ -166,7 +271,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B9ED872AF98579000B95B7 /* Preview Assets.xcassets in Resources */,
+				2896B9002AFAC20F00983EAE /* BeaufortforLOL-Light.ttf in Resources */,
+				2896B8FF2AFAC20F00983EAE /* BeaufortforLOL-Bold.ttf in Resources */,
+				2896B9022AFAC20F00983EAE /* BeaufortforLOL-BoldItalic.ttf in Resources */,
+				2896B8FC2AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf in Resources */,
+				2896B9112AFAC29C00983EAE /* Spiegel_TT_SemiBold.ttf in Resources */,
+				2896B90E2AFAC29C00983EAE /* Spiegel_TT_Bold.ttf in Resources */,
+				2896B9062AFAC20F00983EAE /* BeaufortforLOL-HeavyItalic.ttf in Resources */,
+				2896B90F2AFAC29C00983EAE /* Spiegel_TT_Regular.ttf in Resources */,
+				2896B9122AFAC29C00983EAE /* Spiegel_TT_Regular_Italic.ttf in Resources */,
+				2896B9132AFAC29C00983EAE /* Spiegel_TT_Bold_Italic.ttf in Resources */,
+				2896B9012AFAC20F00983EAE /* BeaufortforLOL-Heavy.ttf in Resources */,
+				2896B9052AFAC20F00983EAE /* BeaufortforLOL-Italic.ttf in Resources */,
+				2896B9032AFAC20F00983EAE /* BeaufortforLOL-BoldItalic(1).ttf in Resources */,
 				28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */,
+				2896B9042AFAC20F00983EAE /* BeaufortforLOL-MediumItalic.ttf in Resources */,
+				2896B9102AFAC29C00983EAE /* Spiegel_TT_SemiBold_Italic.ttf in Resources */,
+				2896B8FD2AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf in Resources */,
+				2896B8FE2AFAC20F00983EAE /* BeaufortforLOL-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
+				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
+				285275A92AFAB50600DFE4CF /* ListComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +439,7 @@
 				DEVELOPMENT_TEAM = SVGXRR5RRA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKnano/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +469,7 @@
 				DEVELOPMENT_TEAM = SVGXRR5RRA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKnano/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
