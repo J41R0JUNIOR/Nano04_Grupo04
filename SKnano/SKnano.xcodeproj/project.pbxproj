@@ -30,6 +30,7 @@
 		28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED812AF98578000B95B7 /* ContentView.swift */; };
 		28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED832AF98579000B95B7 /* Assets.xcassets */; };
 		28B9ED872AF98579000B95B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */; };
+		98B4E64E2AFAC9D0000C93D4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4E64D2AFAC9D0000C93D4 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		28B9ED812AF98578000B95B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28B9ED832AF98579000B95B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9836C6BB2AFABC080083D48D /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
+		98B4E64D2AFAC9D0000C93D4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 		28B9ED8D2AF9858F000B95B7 /* StoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				9836C6BB2AFABC080083D48D /* Products.storekit */,
+				98B4E64D2AFAC9D0000C93D4 /* Store.swift */,
 			);
 			path = StoreKit;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B4E64E2AFAC9D0000C93D4 /* Store.swift in Sources */,
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
 				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,

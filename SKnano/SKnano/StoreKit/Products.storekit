@@ -1,0 +1,235 @@
+{
+  "identifier" : "2BF5A30C",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "150",
+      "familyShareable" : false,
+      "internalID" : "8F3103BC",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Arcane",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.jinx.arcane",
+      "referenceName" : "Jinx Arcane",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "32",
+      "familyShareable" : false,
+      "internalID" : "67B6E18D",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Felina",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.jinx.felina",
+      "referenceName" : "Jinx Felina",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "25.99",
+      "familyShareable" : false,
+      "internalID" : "FDD77215",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Felina Prestigio",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.jinx.felina.prestigio",
+      "referenceName" : "Jinx Felina Prestigio",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "10",
+      "familyShareable" : false,
+      "internalID" : "09D8A19E",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Felina Kwaii",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.jinx.kawaii",
+      "referenceName" : "Jinx Felina Kawaii",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "200",
+      "familyShareable" : false,
+      "internalID" : "9BE52AF8",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Riven Coelha",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.riven.coelha",
+      "referenceName" : "Riven Coelha",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "28.95",
+      "familyShareable" : false,
+      "internalID" : "6159F9B4",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Riven Quebrada",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.riven.quebrada",
+      "referenceName" : "Riven Quabrada",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "48.68",
+      "familyShareable" : false,
+      "internalID" : "FF6D3F3D",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Riven Sentinela",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.riven.sentinela",
+      "referenceName" : "Riven Sentinela",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "100000",
+      "familyShareable" : false,
+      "internalID" : "2EBB7D08",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Sylas Lobo",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.sylas.lobo",
+      "referenceName" : "Sylas Lobo",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "500",
+      "familyShareable" : false,
+      "internalID" : "9AF81C3E",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Sylas Matador",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "skin.sylas.matador",
+      "referenceName" : "Sylas Matador",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "pt_BR",
+    "_storefront" : "BRA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "DD05FE56",
+      "localizations" : [
+
+      ],
+      "name" : "Skins",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "18B7AA3A",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "subscription.week",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Skin Every Week",
+          "subscriptionGroupID" : "DD05FE56",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
