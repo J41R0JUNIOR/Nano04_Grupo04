@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     let numeros = [1,2,3]
+    @ObservedObject var vm = CloudKitVM()//Instantiate the class with cloud functions
     
     var body: some View {
         ZStack {
