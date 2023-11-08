@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		285275A92AFAB50600DFE4CF /* ListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285275A82AFAB50600DFE4CF /* ListComponent.swift */; };
+		284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D7AB32AFBFD5C00DB7FA7 /* Title.swift */; };
+		284D7AB72AFC0E3E00DB7FA7 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AB62AFC0E3E00DB7FA7 /* Products.plist */; };
+		285275A92AFAB50600DFE4CF /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285275A82AFAB50600DFE4CF /* ListRowView.swift */; };
 		2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896B8ED2AFAB8EA00983EAE /* Color.swift */; };
 		2896B8FC2AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F12AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf */; };
 		2896B8FD2AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2896B8F22AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf */; };
@@ -33,7 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		285275A82AFAB50600DFE4CF /* ListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponent.swift; sourceTree = "<group>"; };
+		284D7AB32AFBFD5C00DB7FA7 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		284D7AB62AFC0E3E00DB7FA7 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		285275A82AFAB50600DFE4CF /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		2896B8ED2AFAB8EA00983EAE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2896B8F12AFAC20F00983EAE /* BeaufortforLOL-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-Medium.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-Medium.ttf"; sourceTree = "<group>"; };
 		2896B8F22AFAC20F00983EAE /* BeaufortforLOL-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BeaufortforLOL-LightItalic.ttf"; path = "../../../../../../../../Downloads/Fonts_Package/BeaufortForLoL-TTF/BeaufortforLOL-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -70,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284D7AB52AFC0BD400DB7FA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				284D7AB62AFC0E3E00DB7FA7 /* Products.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		285275A52AFAB29B00DFE4CF /* Champion */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +92,7 @@
 		285275A72AFAB4EA00DFE4CF /* ListComponent */ = {
 			isa = PBXGroup;
 			children = (
-				285275A82AFAB50600DFE4CF /* ListComponent.swift */,
+				285275A82AFAB50600DFE4CF /* ListRowView.swift */,
 			);
 			path = ListComponent;
 			sourceTree = "<group>";
@@ -89,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				2896B8ED2AFAB8EA00983EAE /* Color.swift */,
+				284D7AB32AFBFD5C00DB7FA7 /* Title.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -152,11 +165,12 @@
 		28B9ED7E2AF98578000B95B7 /* SKnano */ = {
 			isa = PBXGroup;
 			children = (
-				2896B8EC2AFAB8D600983EAE /* Extensions */,
 				28B9ED8F2AF985A7000B95B7 /* Views */,
 				28B9ED8E2AF9859C000B95B7 /* Notification */,
 				28B9ED912AF9865C000B95B7 /* CloudKit */,
 				28B9ED8D2AF9858F000B95B7 /* StoreKit */,
+				2896B8EC2AFAB8D600983EAE /* Extensions */,
+				284D7AB52AFC0BD400DB7FA7 /* Model */,
 				28B9ED902AF985B4000B95B7 /* System */,
 				28B9ED832AF98579000B95B7 /* Assets.xcassets */,
 				28B9ED852AF98579000B95B7 /* Preview Content */,
@@ -282,6 +296,7 @@
 				2896B9122AFAC29C00983EAE /* Spiegel_TT_Regular_Italic.ttf in Resources */,
 				2896B9132AFAC29C00983EAE /* Spiegel_TT_Bold_Italic.ttf in Resources */,
 				2896B9012AFAC20F00983EAE /* BeaufortforLOL-Heavy.ttf in Resources */,
+				284D7AB72AFC0E3E00DB7FA7 /* Products.plist in Resources */,
 				2896B9052AFAC20F00983EAE /* BeaufortforLOL-Italic.ttf in Resources */,
 				2896B9032AFAC20F00983EAE /* BeaufortforLOL-BoldItalic(1).ttf in Resources */,
 				28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */,
@@ -299,10 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */,
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
 				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
-				285275A92AFAB50600DFE4CF /* ListComponent.swift in Sources */,
+				285275A92AFAB50600DFE4CF /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

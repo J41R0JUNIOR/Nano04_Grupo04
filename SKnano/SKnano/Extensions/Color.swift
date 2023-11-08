@@ -10,6 +10,6 @@ import SwiftUI
 
 extension Color {
     
-    static let CustomRadialGradient = RadialGradient(colors: [Color.clear, Color.black, Color.black], center: .trailing, startRadius: 0, endRadius: 400)
+    static let customRadialGradient = RadialGradient(colors: [Color.clear, Color.backgroundBegin, Color.backgroundEnd], center: .trailing, startRadius: 0, endRadius: 500)
     
 }
