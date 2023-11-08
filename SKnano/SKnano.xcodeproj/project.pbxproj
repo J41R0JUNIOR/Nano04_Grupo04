@@ -31,6 +31,8 @@
 		28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED832AF98579000B95B7 /* Assets.xcassets */; };
 		28B9ED872AF98579000B95B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */; };
 		98B4E64E2AFAC9D0000C93D4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4E64D2AFAC9D0000C93D4 /* Store.swift */; };
+		98B4E6532AFAD6B6000C93D4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4E6522AFAD6B6000C93D4 /* Character.swift */; };
+		98B4E6552AFAD90F000C93D4 /* Skin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B4E6542AFAD90F000C93D4 /* Skin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9836C6BB2AFABC080083D48D /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 		98B4E64D2AFAC9D0000C93D4 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		98B4E6522AFAD6B6000C93D4 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		98B4E6542AFAD90F000C93D4 /* Skin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,8 @@
 			children = (
 				9836C6BB2AFABC080083D48D /* Products.storekit */,
 				98B4E64D2AFAC9D0000C93D4 /* Store.swift */,
+				98B4E6522AFAD6B6000C93D4 /* Character.swift */,
+				98B4E6542AFAD90F000C93D4 /* Skin.swift */,
 			);
 			path = StoreKit;
 			sourceTree = "<group>";
@@ -305,8 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B4E64E2AFAC9D0000C93D4 /* Store.swift in Sources */,
+				98B4E6552AFAD90F000C93D4 /* Skin.swift in Sources */,
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
 				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
+				98B4E6532AFAD6B6000C93D4 /* Character.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
 				285275A92AFAB50600DFE4CF /* ListComponent.swift in Sources */,
 			);

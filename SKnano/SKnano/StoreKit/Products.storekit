@@ -61,7 +61,7 @@
         }
       ],
       "productID" : "skin.jinx.kawaii",
-      "referenceName" : "Jinx Felina Kawaii",
+      "referenceName" : "Jinx Kawaii",
       "type" : "NonConsumable"
     },
     {
@@ -91,7 +91,7 @@
         }
       ],
       "productID" : "skin.riven.quebrada",
-      "referenceName" : "Riven Quabrada",
+      "referenceName" : "Riven Quebrada",
       "type" : "NonConsumable"
     },
     {
@@ -207,7 +207,7 @@
           "codeOffers" : [
 
           ],
-          "displayPrice" : "0.99",
+          "displayPrice" : "15000",
           "familyShareable" : false,
           "groupNumber" : 1,
           "internalID" : "18B7AA3A",
