@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>f</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>j</string>
+		</dict>
+		<dict/>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BeaufortforLOL-Bold.ttf</string>
+		<string>BeaufortforLOL-BoldItalic.ttf</string>
+		<string>BeaufortforLOL-BoldItalic(1).ttf</string>
+		<string>BeaufortforLOL-Heavy.ttf</string>
+		<string>BeaufortforLOL-HeavyItalic.ttf</string>
+		<string>BeaufortforLOL-Italic.ttf</string>
+		<string>BeaufortforLOL-Light.ttf</string>
+		<string>BeaufortforLOL-LightItalic.ttf</string>
+		<string>BeaufortforLOL-Medium.ttf</string>
+		<string>BeaufortforLOL-MediumItalic.ttf</string>
+		<string>BeaufortforLOL-Regular.ttf</string>
+		<string>Spiegel_TT_Bold_Italic.ttf</string>
+		<string>Spiegel_TT_Bold.ttf</string>
+		<string>Spiegel_TT_Regular_Italic.ttf</string>
+		<string>Spiegel_TT_Regular.ttf</string>
+		<string>Spiegel_TT_SemiBold_Italic.ttf</string>
+		<string>Spiegel_TT_SemiBold.ttf</string>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
+</dict>
+</plist>
