@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>jinx.skin.arcane</key>
+	<string>JinxArcane</string>
+	<key>jinx.skin.felina</key>
+	<string>JinxFelina</string>
+	<key>jinx.skin.felinaPrestigio</key>
+	<string>JInxFelinaPrestigio</string>
+	<key>jinx.skin.kawaii</key>
+	<string>JinxKawaii</string>
+	<key>riven.skin.coelha</key>
+	<string>RivenCoelha</string>
+	<key>riven.skin.quebrada</key>
+	<string>RivenQuebrada</string>
+	<key>riven.skin.RivenSentinela</key>
+	<string>RivenSentinela</string>
+	<key>sylas.skin.lobo</key>
+	<string>SylasLobo</string>
+	<key>sylas.skin.matador</key>
+	<string>SylasMatador</string>
+</dict>
+</plist>

@@ -8,17 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let numeros = [1,2,3]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color.customBackground
+                .ignoresSafeArea()
+            ScrollView {
+                LazyVStack(spacing: 0) {
+                    ForEach(numeros, id: \.self) { _ in
+                        ListRowView(name: "Jinx", title: "O Gatilho desenfreado", image: "Jinx")
+                    }
+                }
+                .padding()
+            }
         }
-        .padding()
+        .navigationTitle("Champions")
+        .setNavbarTitleColor(.goldText)
     }
 }
 
 #Preview {
-    ContentView()
+    NavigationStack {
+        ContentView()
+    }
 }
