@@ -11,9 +11,7 @@ import SwiftUI
 struct SKnanoApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                ContentView()
-            }
+            ContentView()
         }
     }
 }
