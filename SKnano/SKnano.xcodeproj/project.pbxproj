@@ -14,6 +14,7 @@
 		629946AD2AFAAC54006DE69D /* CloudUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629946AC2AFAAC54006DE69D /* CloudUtility.swift */; };
 		629946B42AFAAFFC006DE69D /* CloudVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629946B32AFAAFFC006DE69D /* CloudVM.swift */; };
 		629946B62AFAB066006DE69D /* CloudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629946B52AFAB066006DE69D /* CloudError.swift */; };
+		B323907B2AFBD77D00120C42 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323907A2AFBD77D00120C42 /* NotificationSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		629946AE2AFAAC79006DE69D /* SKnano.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SKnano.entitlements; sourceTree = "<group>"; };
 		629946B32AFAAFFC006DE69D /* CloudVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudVM.swift; path = SKnano/CloudVM.swift; sourceTree = SOURCE_ROOT; };
 		629946B52AFAB066006DE69D /* CloudError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudError.swift; path = SKnano/CloudError.swift; sourceTree = SOURCE_ROOT; };
+		B323907A2AFBD77D00120C42 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			children = (
 				629946AE2AFAAC79006DE69D /* SKnano.entitlements */,
 				28B9ED8F2AF985A7000B95B7 /* Views */,
-				28B9ED8E2AF9859C000B95B7 /* Notification */,
+				B32390792AFBD75800120C42 /* Notification */,
 				28B9ED912AF9865C000B95B7 /* CloudKit */,
 				28B9ED8D2AF9858F000B95B7 /* StoreKit */,
 				28B9ED902AF985B4000B95B7 /* System */,
@@ -83,13 +85,6 @@
 			children = (
 			);
 			path = StoreKit;
-			sourceTree = "<group>";
-		};
-		28B9ED8E2AF9859C000B95B7 /* Notification */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Notification;
 			sourceTree = "<group>";
 		};
 		28B9ED8F2AF985A7000B95B7 /* Views */ = {
@@ -116,6 +111,14 @@
 				629946B52AFAB066006DE69D /* CloudError.swift */,
 			);
 			path = CloudKit;
+			sourceTree = "<group>";
+		};
+		B32390792AFBD75800120C42 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				B323907A2AFBD77D00120C42 /* NotificationSettings.swift */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +196,7 @@
 				629946AD2AFAAC54006DE69D /* CloudUtility.swift in Sources */,
 				629946B62AFAB066006DE69D /* CloudError.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
+				B323907B2AFBD77D00120C42 /* NotificationSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
