@@ -21,8 +21,8 @@ public enum StoreError: Error {
         
     }
     
+    // Retorna skins de acordo com um dado personagem
     func getProductsByCharacter(_ character: Character) -> [Product] {
-        print("Name: \(character.name)")
         let skins = skins.filter { skin in
             return skin.id.contains(character.name.lowercased())
         }
@@ -42,8 +42,10 @@ public enum StoreError: Error {
         }
     }
     
+    // Pega todas as skins da loja e alimenta a variável skins
     private func requestProducts() async {
         
+        // Lógica para pegar todos os ids das skins
         let characters = Character.all()
         let skinsIDs: [String] = characters.reduce([]) { partialResult, character in
             
@@ -56,9 +58,9 @@ public enum StoreError: Error {
             
         }
         
+        
         var skins: [Product] = []
     
-        
         do {
             let products = try await Product.products(for: skinsIDs)
             print(products.count)
@@ -80,17 +82,22 @@ public enum StoreError: Error {
         
     }
     
+    // Checa todos os produtos que foram comprados e alimenta a variávels purchasedSkins
     private func updateProducts() async {
         
+        // Todos os produtos comprados
         let purchasedProducts = Transaction.currentEntitlements
         
         var purchasedSkins: [Product] = []
         
         for await product in purchasedProducts {
             do {
+                
+                // Verifica se a transação foi verificada
                 let transaction = try checkVerified(product)
                 
                 switch transaction.productType {
+                    // Todos os produtos não consumíveis (skins)
                     case .nonConsumable:
                         if let purchasedSkin = skins.first(where: { $0.id == transaction.productID }) {
                             purchasedSkins.append(purchasedSkin)
