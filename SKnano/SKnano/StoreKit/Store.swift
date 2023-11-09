@@ -20,8 +20,6 @@ public enum StoreError: Error {
 public enum SubscriptionTier: Int, Comparable {
     case none = 0
     case standard = 1
-    case premium = 2
-    case pro = 3
 
     public static func < (lhs: Self, rhs: Self) -> Bool {
         return lhs.rawValue < rhs.rawValue
@@ -29,27 +27,25 @@ public enum SubscriptionTier: Int, Comparable {
 }
 
 class Store: ObservableObject {
-
-    @Published private(set) var cars: [Product]
-    @Published private(set) var fuel: [Product]
+ 
+    @Published private(set) var skins: [Product]
     @Published private(set) var subscriptions: [Product]
     @Published private(set) var nonRenewables: [Product]
     
-    @Published private(set) var purchasedCars: [Product] = []
+    @Published private(set) var purchasedSkins: [Product] = []
     @Published private(set) var purchasedNonRenewableSubscriptions: [Product] = []
     @Published private(set) var purchasedSubscriptions: [Product] = []
     @Published private(set) var subscriptionGroupStatus: RenewalState?
     
     var updateListenerTask: Task<Void, Error>? = nil
 
-    private let productIdToEmoji: [String: String]
+    private let productIdToImage: [String: String]
 
     init() {
-        productIdToEmoji = Store.loadProductIdToEmojiData()
+        productIdToImage = Store.loadProductIdToImageData()
 
         //Initialize empty products, and then do a product request asynchronously to fill them in.
-        cars = []
-        fuel = []
+        skins = []
         subscriptions = []
         nonRenewables = []
 
@@ -69,7 +65,7 @@ class Store: ObservableObject {
         updateListenerTask?.cancel()
     }
     
-    static func loadProductIdToEmojiData() -> [String: String] {
+    static func loadProductIdToImageData() -> [String: String] {
         guard let path = Bundle.main.path(forResource: "Products", ofType: "plist"),
               let plist = FileManager.default.contents(atPath: path),
               let data = try? PropertyListSerialization.propertyList(from: plist, format: nil) as? [String: String] else {
@@ -102,20 +98,19 @@ class Store: ObservableObject {
     func requestProducts() async {
         do {
             //Request products from the App Store using the identifiers that the Products.plist file defines.
-            let storeProducts = try await Product.products(for: productIdToEmoji.keys)
+            let storeProducts = try await Product.products(for: productIdToImage.keys)
 
-            var newCars: [Product] = []
+            var newSkins: [Product] = []
             var newSubscriptions: [Product] = []
             var newNonRenewables: [Product] = []
-            var newFuel: [Product] = []
 
             //Filter the products into categories based on their type.
             for product in storeProducts {
                 switch product.type {
                 case .consumable:
-                    newFuel.append(product)
+                    break
                 case .nonConsumable:
-                    newCars.append(product)
+                    newSkins.append(product)
                 case .autoRenewable:
                     newSubscriptions.append(product)
                 case .nonRenewable:
@@ -127,10 +122,9 @@ class Store: ObservableObject {
             }
 
             //Sort each product category by price, lowest to highest, to update the store.
-            cars = sortByPrice(newCars)
+            skins = sortByPrice(newSkins)
             subscriptions = sortByPrice(newSubscriptions)
             nonRenewables = sortByPrice(newNonRenewables)
-            fuel = sortByPrice(newFuel)
         } catch {
             print("Failed product request from the App Store server: \(error)")
         }
@@ -166,7 +160,7 @@ class Store: ObservableObject {
         case .nonRenewable:
             return purchasedNonRenewableSubscriptions.contains(product)
         case .nonConsumable:
-            return purchasedCars.contains(product)
+            return purchasedSkins.contains(product)
         case .autoRenewable:
             return purchasedSubscriptions.contains(product)
         default:
@@ -188,7 +182,7 @@ class Store: ObservableObject {
 
     @MainActor
     func updateCustomerProductStatus() async {
-        var purchasedCars: [Product] = []
+        var purchasedSkins: [Product] = []
         var purchasedSubscriptions: [Product] = []
         var purchasedNonRenewableSubscriptions: [Product] = []
 
@@ -201,8 +195,8 @@ class Store: ObservableObject {
                 //Check the `productType` of the transaction and get the corresponding product from the store.
                 switch transaction.productType {
                 case .nonConsumable:
-                    if let car = cars.first(where: { $0.id == transaction.productID }) {
-                        purchasedCars.append(car)
+                    if let car = skins.first(where: { $0.id == transaction.productID }) {
+                        purchasedSkins.append(car)
                     }
                 case .nonRenewable:
                     if let nonRenewable = nonRenewables.first(where: { $0.id == transaction.productID }),
@@ -233,7 +227,7 @@ class Store: ObservableObject {
         }
 
         //Update the store information with the purchased products.
-        self.purchasedCars = purchasedCars
+        self.purchasedSkins = purchasedSkins
         self.purchasedNonRenewableSubscriptions = purchasedNonRenewableSubscriptions
 
         //Update the store information with auto-renewable subscription products.
@@ -246,8 +240,8 @@ class Store: ObservableObject {
         subscriptionGroupStatus = try? await subscriptions.first?.subscription?.status.first?.state
     }
 
-    func emoji(for productId: String) -> String {
-        return productIdToEmoji[productId]!
+    func image(for productId: String) -> String {
+        return productIdToImage[productId]!
     }
 
     func sortByPrice(_ products: [Product]) -> [Product] {
@@ -259,10 +253,6 @@ class Store: ObservableObject {
         switch productId {
         case "subscription.standard":
             return .standard
-        case "subscription.premium":
-            return .premium
-        case "subscription.pro":
-            return .pro
         default:
             return .none
         }

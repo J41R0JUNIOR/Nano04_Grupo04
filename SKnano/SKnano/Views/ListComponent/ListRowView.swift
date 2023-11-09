@@ -51,7 +51,7 @@ struct ListRowView: View {
     }
 }
 
-#Preview {
+#Preview(traits: .sizeThatFitsLayout) {
     ListRowView(name: "Riven", title: "A Exilada", image: "RivenSentinela")
         .previewLayout(.sizeThatFits)
 }

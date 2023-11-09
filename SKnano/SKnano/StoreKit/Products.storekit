@@ -1,7 +1,21 @@
 {
   "identifier" : "66617DE8",
   "nonRenewingSubscriptions" : [
-
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1BD32368",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "Pass.skins",
+      "referenceName" : "Standard",
+      "type" : "NonRenewingSubscription"
+    }
   ],
   "products" : [
     {
@@ -11,7 +25,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Jinx Arcane",
           "locale" : "en_US"
         }
       ],
@@ -26,7 +40,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Jinx Felina",
           "locale" : "en_US"
         }
       ],
@@ -41,7 +55,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Jinx Felina Prestigio",
           "locale" : "en_US"
         }
       ],
@@ -56,7 +70,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Jinx Kawaii",
           "locale" : "en_US"
         }
       ],
@@ -71,7 +85,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Riven Quebrada",
           "locale" : "en_US"
         }
       ],
@@ -86,7 +100,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Riven Sentinela",
           "locale" : "en_US"
         }
       ],
@@ -101,7 +115,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Riven Coelha",
           "locale" : "en_US"
         }
       ],
@@ -116,7 +130,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Sylas Lobo",
           "locale" : "en_US"
         }
       ],
@@ -131,7 +145,7 @@
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Sylas Matador",
           "locale" : "en_US"
         }
       ],
@@ -146,7 +160,10 @@
     "_storefront" : "USA",
     "_storeKitErrors" : [
       {
-        "current" : null,
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
         "enabled" : false,
         "name" : "Load Products"
       },
@@ -198,7 +215,7 @@
       "localizations" : [
 
       ],
-      "name" : "skins.pack",
+      "name" : "Software Services",
       "subscriptions" : [
         {
           "adHocOffers" : [
@@ -221,7 +238,7 @@
           ],
           "productID" : "skins.pack",
           "recurringSubscriptionPeriod" : "P1M",
-          "referenceName" : "Skins Pack",
+          "referenceName" : "Standard",
           "subscriptionGroupID" : "63C9A6D6",
           "type" : "RecurringSubscription"
         },
@@ -232,10 +249,10 @@
           "codeOffers" : [
 
           ],
-          "displayPrice" : "19.99",
+          "displayPrice" : "0.99",
           "familyShareable" : false,
           "groupNumber" : 1,
-          "internalID" : "AEC79C04",
+          "internalID" : "8EC70B82",
           "introductoryOffer" : null,
           "localizations" : [
             {
@@ -244,9 +261,9 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "skins.pack.anual",
-          "recurringSubscriptionPeriod" : "P1Y",
-          "referenceName" : "Skins Pack Anual",
+          "productID" : "skins.pack.pro",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro",
           "subscriptionGroupID" : "63C9A6D6",
           "type" : "RecurringSubscription"
         }
