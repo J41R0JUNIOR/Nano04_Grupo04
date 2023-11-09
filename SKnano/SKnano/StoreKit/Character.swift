@@ -41,10 +41,10 @@ extension Character {
         
         return char
     }
-    static var sylas: Character = .init(name: "Sylas", skins: [
+    static var riven: Character = .init(name: "Riven", skins: [
         .coelha, .quebrada, .sentinela
     ])
-    static var riven: Character = .init(name: "Riven", skins: [
+    static var sylas: Character = .init(name: "Sylas", skins: [
         .lobo, .matador
     ])
     
