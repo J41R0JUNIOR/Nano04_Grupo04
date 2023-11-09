@@ -22,12 +22,11 @@ public enum StoreError: Error {
     }
     
     func getProductsByCharacter(_ character: Character) -> [Product] {
+        print("Name: \(character.name)")
         let skins = skins.filter { skin in
-            character.skins.contains { _skin in
-                return skin.id == _skin.slug
-            }
+            return skin.id.contains(character.name.lowercased())
         }
-        
+    
         return skins
     }
     
@@ -49,6 +48,7 @@ public enum StoreError: Error {
             "skin.jinx.arcane",
             "skin.jinx.felina",
             "skin.jinx.felina.prestigio",
+            "skin.jinx.kawaii",
             "skin.riven.coelha",
             "skin.riven.quebrada",
             "skin.riven.sentinela",
@@ -60,7 +60,7 @@ public enum StoreError: Error {
         
         do {
             let products = try await Product.products(for: skinsIDs)
-            
+            print(products.count)
             for product in products {
                 switch product.type {
                         
