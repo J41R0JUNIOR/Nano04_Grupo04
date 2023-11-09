@@ -44,19 +44,20 @@ public enum StoreError: Error {
     
     private func requestProducts() async {
         
-        let skinsIDs = [
-            "skin.jinx.arcane",
-            "skin.jinx.felina",
-            "skin.jinx.felina.prestigio",
-            "skin.jinx.kawaii",
-            "skin.riven.coelha",
-            "skin.riven.quebrada",
-            "skin.riven.sentinela",
-            "skin.sylas.lobo",
-            "skin.sylas.matador",
-        ]
+        let characters = Character.all()
+        let skinsIDs: [String] = characters.reduce([]) { partialResult, character in
+            
+            var result = partialResult
+            for skin in character.skins {
+                result.append(skin.id)
+            }
+            
+            return result
+            
+        }
         
         var skins: [Product] = []
+    
         
         do {
             let products = try await Product.products(for: skinsIDs)
