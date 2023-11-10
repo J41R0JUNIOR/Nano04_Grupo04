@@ -15,6 +15,7 @@
 		629946B42AFAAFFC006DE69D /* CloudVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629946B32AFAAFFC006DE69D /* CloudVM.swift */; };
 		629946B62AFAB066006DE69D /* CloudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629946B52AFAB066006DE69D /* CloudError.swift */; };
 		B323907B2AFBD77D00120C42 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323907A2AFBD77D00120C42 /* NotificationSettings.swift */; };
+		B32390832AFC204100120C42 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32390822AFC204100120C42 /* Not.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		629946B32AFAAFFC006DE69D /* CloudVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudVM.swift; path = SKnano/CloudVM.swift; sourceTree = SOURCE_ROOT; };
 		629946B52AFAB066006DE69D /* CloudError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudError.swift; path = SKnano/CloudError.swift; sourceTree = SOURCE_ROOT; };
 		B323907A2AFBD77D00120C42 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
+		B32390822AFC204100120C42 /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Not.swift; path = "../../../../../../../../.Trash/Nano04_Grupo04 16.41.15/SKnano/SKnano/Notification/Not.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B323907A2AFBD77D00120C42 /* NotificationSettings.swift */,
+				B32390822AFC204100120C42 /* Not.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				629946B42AFAAFFC006DE69D /* CloudVM.swift in Sources */,
 				629946AD2AFAAC54006DE69D /* CloudUtility.swift in Sources */,
 				629946B62AFAB066006DE69D /* CloudError.swift in Sources */,
+				B32390832AFC204100120C42 /* Not.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
 				B323907B2AFBD77D00120C42 /* NotificationSettings.swift in Sources */,
 			);
