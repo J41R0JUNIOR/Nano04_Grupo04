@@ -35,8 +35,8 @@ class PushNotificationCloudKit: ObservableObject{
         let subscription = CKQuerySubscription(recordType: "Messages", predicate: predicate, subscriptionID: "message_added_to_database", options: [.firesOnRecordCreation, .firesOnRecordDeletion])
         
         let notification = CKSubscription.NotificationInfo()
-        notification.title = "New message"
-        notification.alertBody = "Come and see whats new"
+        notification.title = "New champion skin"
+        notification.alertBody = "Come and see the newest skins we added to the store."
         notification.soundName = "default"
         
         subscription.notificationInfo = notification
