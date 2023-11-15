@@ -1,14 +1,15 @@
 //
-//  ListCellView.swift
+//  ListSubView.swift
 //  SKnano
 //
-//  Created by Eduardo on 09/11/23.
+//  Created by Eduardo on 10/11/23.
 //
 
 import SwiftUI
+
 import StoreKit
 
-struct ListCellView: View {
+struct ListSubView: View {
     @EnvironmentObject var store: Store
     @State var isPurchased: Bool = false
     @State var errorTitle = ""
@@ -17,24 +18,13 @@ struct ListCellView: View {
     let product: Product
     let purchasingEnabled: Bool
 
-    var image: String {
-        store.image(for: product.id)
-    }
-
     init(product: Product, purchasingEnabled: Bool = true) {
         self.product = product
         self.purchasingEnabled = purchasingEnabled
     }
 
     var body: some View {
-        HStack {
-            Image(image)
-                .resizable()
-                .scaledToFill()
-                .clipShape(RoundedRectangle(cornerRadius: 15.0))
-                .frame(width: 125)
-                .padding()
-            
+        HStack( alignment: .center) {
             Text(product.displayName)
                 .foregroundStyle(.goldText)
             if purchasingEnabled {

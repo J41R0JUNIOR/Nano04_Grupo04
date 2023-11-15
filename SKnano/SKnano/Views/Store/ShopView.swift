@@ -10,37 +10,34 @@ import StoreKit
 
 struct ShopView: View {
     @StateObject var store: Store = Store()
-
+    
     var body: some View {
-        List {
-            Section("Cars") {
+        ZStack {
+            Color.customBackground
+                .ignoresSafeArea()
+            ScrollView {
                 ForEach(store.skins) { skin in
                     ListCellView(product: skin)
+                        .padding(.leading, 10)
+                        .padding(.trailing, 15)
+                    Divider()
+                        .background(Color.goldText)
                 }
+                
+                .listStyle(GroupedListStyle())
+                
+                    ForEach(store.nonRenewables) { product in
+                        ListSubView(product: product, purchasingEnabled: store.purchasedSubscriptions.isEmpty)
+                            .padding(.leading, 15)
+                            .padding(.trailing, 15)
+
+                    }
+                
             }
-            .listStyle(GroupedListStyle())
-
-
-            Section("Navigation: Non-Renewing Subscription") {
-                ForEach(store.nonRenewables) { product in
-                    ListCellView(product: product, purchasingEnabled: store.purchasedSubscriptions.isEmpty)
-                }
-            }
-            .listStyle(GroupedListStyle())
-
-            Button("Restore Purchases", action: {
-                Task {
-                    //This call displays a system prompt that asks users to authenticate with their App Store credentials.
-                    //Call this function only in response to an explicit user action, such as tapping a button.
-                    try? await AppStore.sync()
-                }
-            })
-
+            .navigationTitle("Store")
+            .setNavbarTitleColor(.goldText)
+            .environmentObject(store)
         }
-
-        .navigationTitle("Store")
-        .setNavbarTitleColor(.goldText)
-        .environmentObject(store)
     }
 }
 

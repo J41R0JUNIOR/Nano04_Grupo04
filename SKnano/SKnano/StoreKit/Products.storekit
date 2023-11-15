@@ -2,13 +2,13 @@
   "identifier" : "66617DE8",
   "nonRenewingSubscriptions" : [
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "19.90",
       "familyShareable" : false,
       "internalID" : "1BD32368",
       "localizations" : [
         {
           "description" : "",
-          "displayName" : "",
+          "displayName" : "Passe de Batalha",
           "locale" : "en_US"
         }
       ],

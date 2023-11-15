@@ -31,6 +31,7 @@
 		285275A92AFAB50600DFE4CF /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285275A82AFAB50600DFE4CF /* ListRowView.swift */; };
 		285CA68B2AFC25EC00E52112 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 285CA68A2AFC25EC00E52112 /* Products.storekit */; };
 		285CA68D2AFC2A1900E52112 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285CA68C2AFC2A1900E52112 /* Store.swift */; };
+		28796A202AFEAD6300AA0DF5 /* ListSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796A1F2AFEAD6300AA0DF5 /* ListSubView.swift */; };
 		2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896B8ED2AFAB8EA00983EAE /* Color.swift */; };
 		28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */; };
 		28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED812AF98578000B95B7 /* ContentView.swift */; };
@@ -65,6 +66,7 @@
 		285275A82AFAB50600DFE4CF /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		285CA68A2AFC25EC00E52112 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = Products.storekit; path = SKnano/StoreKit/Products.storekit; sourceTree = SOURCE_ROOT; };
 		285CA68C2AFC2A1900E52112 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		28796A1F2AFEAD6300AA0DF5 /* ListSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSubView.swift; sourceTree = "<group>"; };
 		2896B8ED2AFAB8EA00983EAE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		28B9ED7C2AF98578000B95B7 /* SKnano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKnano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKnanoApp.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				283479362AFD5F2700F65E0B /* ListCellView.swift */,
 				283479382AFD5F6F00F65E0B /* BuyButtonStyle.swift */,
+				28796A1F2AFEAD6300AA0DF5 /* ListSubView.swift */,
 			);
 			path = StoreList;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */,
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
 				28F0B4EC2AFCE45800C70C69 /* ShopView.swift in Sources */,
+				28796A202AFEAD6300AA0DF5 /* ListSubView.swift in Sources */,
 				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
 				285CA68D2AFC2A1900E52112 /* Store.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,

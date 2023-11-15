@@ -16,11 +16,11 @@ struct BuyButtonStyle: ButtonStyle {
     }
     
     func makeBody(configuration: Self.Configuration) -> some View {
-        var bgColor: Color = isPurchased ? Color.green : Color.blue
+        var bgColor: Color = isPurchased ? Color.green : Color.blueBuy
         bgColor = configuration.isPressed ? bgColor.opacity(0.7) : bgColor.opacity(1)
         
         return configuration.label
-            .frame(width: 50)
+            .frame(width: 60)
             .padding(10)
             .background(bgColor)
             .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
@@ -33,7 +33,7 @@ struct BuyButtonStyle_Previews: PreviewProvider {
         Group {
             Button(action: {}) {
                 Text("Buy")
-                    .foregroundColor(.white)
+                    .foregroundColor(.goldPrice)
                     .bold()
             }
             .buttonStyle(BuyButtonStyle())

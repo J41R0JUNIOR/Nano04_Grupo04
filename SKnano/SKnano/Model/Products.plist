@@ -7,7 +7,7 @@
 	<key>jinx.skin.felina</key>
 	<string>JinxFelina</string>
 	<key>jinx.skin.felinaPrestigio</key>
-	<string>JInxFelinaPrestigio</string>
+	<string>JinxFelinaPrestigio</string>
 	<key>jinx.skin.kawaii</key>
 	<string>JinxKawaii</string>
 	<key>riven.skin.coelha</key>
@@ -20,5 +20,7 @@
 	<string>SylasLobo</string>
 	<key>sylas.skin.matador</key>
 	<string>SylasMatador</string>
+	<key>Pass.skins</key>
+	<string>Pass</string>
 </dict>
 </plist>
