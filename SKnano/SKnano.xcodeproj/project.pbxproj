@@ -40,6 +40,9 @@
 		28F0B4E82AFCE29A00C70C69 /* ChampionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */; };
 		28F0B4EC2AFCE45800C70C69 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0B4EB2AFCE45800C70C69 /* ShopView.swift */; };
 		B39825652B06DA500044FF28 /* PushNotificationCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */; };
+		B398256A2B06DCB30044FF28 /* CloudVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825672B06DCB30044FF28 /* CloudVM.swift */; };
+		B398256B2B06DCB30044FF28 /* CloudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825682B06DCB30044FF28 /* CloudError.swift */; };
+		B398256C2B06DCB30044FF28 /* CloudUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825692B06DCB30044FF28 /* CloudUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +80,9 @@
 		28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsView.swift; sourceTree = "<group>"; };
 		28F0B4EB2AFCE45800C70C69 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PushNotificationCloudKit.swift; path = SKnano/Model/PushNotificationCloudKit.swift; sourceTree = SOURCE_ROOT; };
+		B39825672B06DCB30044FF28 /* CloudVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudVM.swift; sourceTree = "<group>"; };
+		B39825682B06DCB30044FF28 /* CloudError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudError.swift; sourceTree = "<group>"; };
+		B39825692B06DCB30044FF28 /* CloudUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,9 +198,9 @@
 		28B9ED7E2AF98578000B95B7 /* SKnano */ = {
 			isa = PBXGroup;
 			children = (
+				B39825662B06DCB30044FF28 /* CloudKit */,
 				28B9ED8F2AF985A7000B95B7 /* Views */,
 				28B9ED8E2AF9859C000B95B7 /* Notification */,
-				28B9ED912AF9865C000B95B7 /* CloudKit */,
 				28B9ED8D2AF9858F000B95B7 /* StoreKit */,
 				2896B8EC2AFAB8D600983EAE /* Extensions */,
 				284D7AB52AFC0BD400DB7FA7 /* Model */,
@@ -250,13 +256,6 @@
 			path = System;
 			sourceTree = "<group>";
 		};
-		28B9ED912AF9865C000B95B7 /* CloudKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CloudKit;
-			sourceTree = "<group>";
-		};
 		28F0B4EA2AFCE37500C70C69 /* Store */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +263,16 @@
 				28F0B4EB2AFCE45800C70C69 /* ShopView.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		B39825662B06DCB30044FF28 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				B39825672B06DCB30044FF28 /* CloudVM.swift */,
+				B39825682B06DCB30044FF28 /* CloudError.swift */,
+				B39825692B06DCB30044FF28 /* CloudUtility.swift */,
+			);
+			path = CloudKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B398256B2B06DCB30044FF28 /* CloudError.swift in Sources */,
+				B398256C2B06DCB30044FF28 /* CloudUtility.swift in Sources */,
 				283479392AFD5F6F00F65E0B /* BuyButtonStyle.swift in Sources */,
 				284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */,
 				B39825652B06DA500044FF28 /* PushNotificationCloudKit.swift in Sources */,
@@ -364,6 +375,7 @@
 				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
 				285CA68D2AFC2A1900E52112 /* Store.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
+				B398256A2B06DCB30044FF28 /* CloudVM.swift in Sources */,
 				285275A92AFAB50600DFE4CF /* ListRowView.swift in Sources */,
 				28F0B4E82AFCE29A00C70C69 /* ChampionsView.swift in Sources */,
 				283479372AFD5F2700F65E0B /* ListCellView.swift in Sources */,
