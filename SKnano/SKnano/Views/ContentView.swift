@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject notification =
+    @StateObject var notification = PushNotificationCloudKit()
     var body: some View {
         TabView {
             NavigationStack {
