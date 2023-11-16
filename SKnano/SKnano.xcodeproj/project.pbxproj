@@ -39,6 +39,7 @@
 		28B9ED872AF98579000B95B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */; };
 		28F0B4E82AFCE29A00C70C69 /* ChampionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */; };
 		28F0B4EC2AFCE45800C70C69 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0B4EB2AFCE45800C70C69 /* ShopView.swift */; };
+		B39825652B06DA500044FF28 /* PushNotificationCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsView.swift; sourceTree = "<group>"; };
 		28F0B4EB2AFCE45800C70C69 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PushNotificationCloudKit.swift; path = SKnano/Model/PushNotificationCloudKit.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		28B9ED8E2AF9859C000B95B7 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 			files = (
 				283479392AFD5F6F00F65E0B /* BuyButtonStyle.swift in Sources */,
 				284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */,
+				B39825652B06DA500044FF28 /* PushNotificationCloudKit.swift in Sources */,
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
 				28F0B4EC2AFCE45800C70C69 /* ShopView.swift in Sources */,
 				28796A202AFEAD6300AA0DF5 /* ListSubView.swift in Sources */,

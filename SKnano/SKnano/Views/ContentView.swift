@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject notification =
     var body: some View {
         TabView {
             NavigationStack {
