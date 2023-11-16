@@ -11,6 +11,7 @@ struct ContentView: View {
     
     let numeros = [1,2,3]
     @ObservedObject var vm = CloudKitVM()//Instantiate the class with cloud functions
+    @StateObject var notification = PushNotificationCloudKit()
     
     var body: some View {
         ZStack {

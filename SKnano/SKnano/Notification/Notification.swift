@@ -10,6 +10,11 @@ import CloudKit
 
 class PushNotificationCloudKit: ObservableObject{
     
+    init(){
+        requestNotificationPermission()
+        subscribeToNotifications()
+    }
+    
     func requestNotificationPermission(){
         let options: UNAuthorizationOptions = [.alert, .sound, .badge]
         UNUserNotificationCenter.current().requestAuthorization(options: options) { sucess, error in
