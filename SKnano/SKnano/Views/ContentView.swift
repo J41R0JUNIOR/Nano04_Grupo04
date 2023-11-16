@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var notification = PushNotificationCloudKit()
+    @ObservedObject var vm = CloudKitVM()//Instantiate the class with cloud functions
+    @StateObject var notification = PushNotificationCloudKit()//Instantiate the class with Notifications config
     var body: some View {
         TabView {
             NavigationStack {
