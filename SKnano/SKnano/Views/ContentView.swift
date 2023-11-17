@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var vm = CloudKitVM()//Instantiate the class with cloud functions
+    @StateObject var notification = PushNotificationCloudKit()//Instantiate the class with Notifications config
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            NavigationStack {
+                ChampionsView()
+            }
+            .tabItem {
+                Label("Champions", systemImage: "list.dash")
+            }
+            NavigationStack {
+                ShopView()
+            }
+            .tabItem {
+                Label("Store", systemImage: "square.and.pencil")
+            }
         }
-        .padding()
     }
 }
 

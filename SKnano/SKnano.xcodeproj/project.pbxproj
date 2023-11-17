@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283479372AFD5F2700F65E0B /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283479362AFD5F2700F65E0B /* ListCellView.swift */; };
+		283479392AFD5F6F00F65E0B /* BuyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283479382AFD5F6F00F65E0B /* BuyButtonStyle.swift */; };
+		284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D7AB32AFBFD5C00DB7FA7 /* Title.swift */; };
+		284D7AB72AFC0E3E00DB7FA7 /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AB62AFC0E3E00DB7FA7 /* Products.plist */; };
+		284D7ABE2AFC1DD300DB7FA7 /* Spiegel_TT_Regular_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AB82AFC1DD300DB7FA7 /* Spiegel_TT_Regular_Italic.ttf */; };
+		284D7ABF2AFC1DD300DB7FA7 /* Spiegel_TT_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AB92AFC1DD300DB7FA7 /* Spiegel_TT_Regular.ttf */; };
+		284D7AC02AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ABA2AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold_Italic.ttf */; };
+		284D7AC12AFC1DD300DB7FA7 /* Spiegel_TT_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ABB2AFC1DD300DB7FA7 /* Spiegel_TT_Bold.ttf */; };
+		284D7AC22AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ABC2AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold.ttf */; };
+		284D7AC32AFC1DD300DB7FA7 /* Spiegel_TT_Bold_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ABD2AFC1DD300DB7FA7 /* Spiegel_TT_Bold_Italic.ttf */; };
+		284D7ACF2AFC1DED00DB7FA7 /* BeaufortforLOL-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AC42AFC1DED00DB7FA7 /* BeaufortforLOL-MediumItalic.ttf */; };
+		284D7AD02AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic(1).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AC52AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic(1).ttf */; };
+		284D7AD12AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AC62AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic.ttf */; };
+		284D7AD22AFC1DED00DB7FA7 /* BeaufortforLOL-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AC72AFC1DED00DB7FA7 /* BeaufortforLOL-Heavy.ttf */; };
+		284D7AD32AFC1DED00DB7FA7 /* BeaufortforLOL-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AC82AFC1DED00DB7FA7 /* BeaufortforLOL-HeavyItalic.ttf */; };
+		284D7AD42AFC1DED00DB7FA7 /* BeaufortforLOL-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7AC92AFC1DED00DB7FA7 /* BeaufortforLOL-Bold.ttf */; };
+		284D7AD52AFC1DED00DB7FA7 /* BeaufortforLOL-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ACA2AFC1DED00DB7FA7 /* BeaufortforLOL-Light.ttf */; };
+		284D7AD62AFC1DED00DB7FA7 /* BeaufortforLOL-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ACB2AFC1DED00DB7FA7 /* BeaufortforLOL-LightItalic.ttf */; };
+		284D7AD72AFC1DED00DB7FA7 /* BeaufortforLOL-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ACC2AFC1DED00DB7FA7 /* BeaufortforLOL-Medium.ttf */; };
+		284D7AD82AFC1DED00DB7FA7 /* BeaufortforLOL-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ACD2AFC1DED00DB7FA7 /* BeaufortforLOL-Regular.ttf */; };
+		284D7AD92AFC1DED00DB7FA7 /* BeaufortforLOL-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 284D7ACE2AFC1DED00DB7FA7 /* BeaufortforLOL-Italic.ttf */; };
+		285275A92AFAB50600DFE4CF /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285275A82AFAB50600DFE4CF /* ListRowView.swift */; };
+		285CA68B2AFC25EC00E52112 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 285CA68A2AFC25EC00E52112 /* Products.storekit */; };
+		285CA68D2AFC2A1900E52112 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285CA68C2AFC2A1900E52112 /* Store.swift */; };
+		28796A202AFEAD6300AA0DF5 /* ListSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28796A1F2AFEAD6300AA0DF5 /* ListSubView.swift */; };
+		2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2896B8ED2AFAB8EA00983EAE /* Color.swift */; };
 		28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */; };
 		28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9ED812AF98578000B95B7 /* ContentView.swift */; };
 		28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED832AF98579000B95B7 /* Assets.xcassets */; };
 		28B9ED872AF98579000B95B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */; };
+		28F0B4E82AFCE29A00C70C69 /* ChampionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */; };
+		28F0B4EC2AFCE45800C70C69 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F0B4EB2AFCE45800C70C69 /* ShopView.swift */; };
+		B39825652B06DA500044FF28 /* PushNotificationCloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */; };
+		B398256A2B06DCB30044FF28 /* CloudVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825672B06DCB30044FF28 /* CloudVM.swift */; };
+		B398256B2B06DCB30044FF28 /* CloudError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825682B06DCB30044FF28 /* CloudError.swift */; };
+		B398256C2B06DCB30044FF28 /* CloudUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39825692B06DCB30044FF28 /* CloudUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283479362AFD5F2700F65E0B /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		283479382AFD5F6F00F65E0B /* BuyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyButtonStyle.swift; sourceTree = "<group>"; };
+		284D7AB32AFBFD5C00DB7FA7 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		284D7AB62AFC0E3E00DB7FA7 /* Products.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
+		284D7AB82AFC1DD300DB7FA7 /* Spiegel_TT_Regular_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spiegel_TT_Regular_Italic.ttf; sourceTree = "<group>"; };
+		284D7AB92AFC1DD300DB7FA7 /* Spiegel_TT_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spiegel_TT_Regular.ttf; sourceTree = "<group>"; };
+		284D7ABA2AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spiegel_TT_SemiBold_Italic.ttf; sourceTree = "<group>"; };
+		284D7ABB2AFC1DD300DB7FA7 /* Spiegel_TT_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spiegel_TT_Bold.ttf; sourceTree = "<group>"; };
+		284D7ABC2AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spiegel_TT_SemiBold.ttf; sourceTree = "<group>"; };
+		284D7ABD2AFC1DD300DB7FA7 /* Spiegel_TT_Bold_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spiegel_TT_Bold_Italic.ttf; sourceTree = "<group>"; };
+		284D7AC42AFC1DED00DB7FA7 /* BeaufortforLOL-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-MediumItalic.ttf"; sourceTree = "<group>"; };
+		284D7AC52AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic(1).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-BoldItalic(1).ttf"; sourceTree = "<group>"; };
+		284D7AC62AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-BoldItalic.ttf"; sourceTree = "<group>"; };
+		284D7AC72AFC1DED00DB7FA7 /* BeaufortforLOL-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Heavy.ttf"; sourceTree = "<group>"; };
+		284D7AC82AFC1DED00DB7FA7 /* BeaufortforLOL-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		284D7AC92AFC1DED00DB7FA7 /* BeaufortforLOL-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Bold.ttf"; sourceTree = "<group>"; };
+		284D7ACA2AFC1DED00DB7FA7 /* BeaufortforLOL-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Light.ttf"; sourceTree = "<group>"; };
+		284D7ACB2AFC1DED00DB7FA7 /* BeaufortforLOL-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-LightItalic.ttf"; sourceTree = "<group>"; };
+		284D7ACC2AFC1DED00DB7FA7 /* BeaufortforLOL-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Medium.ttf"; sourceTree = "<group>"; };
+		284D7ACD2AFC1DED00DB7FA7 /* BeaufortforLOL-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Regular.ttf"; sourceTree = "<group>"; };
+		284D7ACE2AFC1DED00DB7FA7 /* BeaufortforLOL-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeaufortforLOL-Italic.ttf"; sourceTree = "<group>"; };
+		285275A82AFAB50600DFE4CF /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		285CA68A2AFC25EC00E52112 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = Products.storekit; path = SKnano/StoreKit/Products.storekit; sourceTree = SOURCE_ROOT; };
+		285CA68C2AFC2A1900E52112 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		28796A1F2AFEAD6300AA0DF5 /* ListSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSubView.swift; sourceTree = "<group>"; };
+		2896B8ED2AFAB8EA00983EAE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		28B9ED7C2AF98578000B95B7 /* SKnano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKnano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKnanoApp.swift; sourceTree = "<group>"; };
 		28B9ED812AF98578000B95B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28B9ED832AF98579000B95B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B9ED862AF98579000B95B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsView.swift; sourceTree = "<group>"; };
+		28F0B4EB2AFCE45800C70C69 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PushNotificationCloudKit.swift; path = SKnano/Model/PushNotificationCloudKit.swift; sourceTree = SOURCE_ROOT; };
+		B39825672B06DCB30044FF28 /* CloudVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudVM.swift; sourceTree = "<group>"; };
+		B39825682B06DCB30044FF28 /* CloudError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudError.swift; sourceTree = "<group>"; };
+		B39825692B06DCB30044FF28 /* CloudUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudUtility.swift; sourceTree = "<group>"; };
+		B398256D2B06DE240044FF28 /* SKnano.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SKnano.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +97,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283479352AFD5F0900F65E0B /* StoreList */ = {
+			isa = PBXGroup;
+			children = (
+				283479362AFD5F2700F65E0B /* ListCellView.swift */,
+				283479382AFD5F6F00F65E0B /* BuyButtonStyle.swift */,
+				28796A1F2AFEAD6300AA0DF5 /* ListSubView.swift */,
+			);
+			path = StoreList;
+			sourceTree = "<group>";
+		};
+		284D7AB52AFC0BD400DB7FA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				284D7AB62AFC0E3E00DB7FA7 /* Products.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		285275A52AFAB29B00DFE4CF /* Champion */ = {
+			isa = PBXGroup;
+			children = (
+				28F0B4E72AFCE29A00C70C69 /* ChampionsView.swift */,
+			);
+			path = Champion;
+			sourceTree = "<group>";
+		};
+		285275A72AFAB4EA00DFE4CF /* ListComponent */ = {
+			isa = PBXGroup;
+			children = (
+				285275A82AFAB50600DFE4CF /* ListRowView.swift */,
+			);
+			path = ListComponent;
+			sourceTree = "<group>";
+		};
+		2896B8EC2AFAB8D600983EAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2896B8ED2AFAB8EA00983EAE /* Color.swift */,
+				284D7AB32AFBFD5C00DB7FA7 /* Title.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2896B8EF2AFAC0F600983EAE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2896B9072AFAC28E00983EAE /* Spiegel */,
+				2896B8F02AFAC1F800983EAE /* BeaufortForLoL */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2896B8F02AFAC1F800983EAE /* BeaufortForLoL */ = {
+			isa = PBXGroup;
+			children = (
+				284D7AC92AFC1DED00DB7FA7 /* BeaufortforLOL-Bold.ttf */,
+				284D7AC62AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic.ttf */,
+				284D7AC52AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic(1).ttf */,
+				284D7AC72AFC1DED00DB7FA7 /* BeaufortforLOL-Heavy.ttf */,
+				284D7AC82AFC1DED00DB7FA7 /* BeaufortforLOL-HeavyItalic.ttf */,
+				284D7ACE2AFC1DED00DB7FA7 /* BeaufortforLOL-Italic.ttf */,
+				284D7ACA2AFC1DED00DB7FA7 /* BeaufortforLOL-Light.ttf */,
+				284D7ACB2AFC1DED00DB7FA7 /* BeaufortforLOL-LightItalic.ttf */,
+				284D7ACC2AFC1DED00DB7FA7 /* BeaufortforLOL-Medium.ttf */,
+				284D7AC42AFC1DED00DB7FA7 /* BeaufortforLOL-MediumItalic.ttf */,
+				284D7ACD2AFC1DED00DB7FA7 /* BeaufortforLOL-Regular.ttf */,
+			);
+			path = BeaufortForLoL;
+			sourceTree = "<group>";
+		};
+		2896B9072AFAC28E00983EAE /* Spiegel */ = {
+			isa = PBXGroup;
+			children = (
+				284D7ABD2AFC1DD300DB7FA7 /* Spiegel_TT_Bold_Italic.ttf */,
+				284D7ABB2AFC1DD300DB7FA7 /* Spiegel_TT_Bold.ttf */,
+				284D7AB82AFC1DD300DB7FA7 /* Spiegel_TT_Regular_Italic.ttf */,
+				284D7AB92AFC1DD300DB7FA7 /* Spiegel_TT_Regular.ttf */,
+				284D7ABA2AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold_Italic.ttf */,
+				284D7ABC2AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold.ttf */,
+			);
+			path = Spiegel;
+			sourceTree = "<group>";
+		};
 		28B9ED732AF98578000B95B7 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +199,13 @@
 		28B9ED7E2AF98578000B95B7 /* SKnano */ = {
 			isa = PBXGroup;
 			children = (
+				B398256D2B06DE240044FF28 /* SKnano.entitlements */,
+				B39825662B06DCB30044FF28 /* CloudKit */,
 				28B9ED8F2AF985A7000B95B7 /* Views */,
 				28B9ED8E2AF9859C000B95B7 /* Notification */,
-				28B9ED912AF9865C000B95B7 /* CloudKit */,
 				28B9ED8D2AF9858F000B95B7 /* StoreKit */,
+				2896B8EC2AFAB8D600983EAE /* Extensions */,
+				284D7AB52AFC0BD400DB7FA7 /* Model */,
 				28B9ED902AF985B4000B95B7 /* System */,
 				28B9ED832AF98579000B95B7 /* Assets.xcassets */,
 				28B9ED852AF98579000B95B7 /* Preview Content */,
@@ -73,6 +224,8 @@
 		28B9ED8D2AF9858F000B95B7 /* StoreKit */ = {
 			isa = PBXGroup;
 			children = (
+				285CA68A2AFC25EC00E52112 /* Products.storekit */,
+				285CA68C2AFC2A1900E52112 /* Store.swift */,
 			);
 			path = StoreKit;
 			sourceTree = "<group>";
@@ -80,6 +233,7 @@
 		28B9ED8E2AF9859C000B95B7 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				B39825642B06DA500044FF28 /* PushNotificationCloudKit.swift */,
 			);
 			path = Notification;
 			sourceTree = "<group>";
@@ -87,6 +241,9 @@
 		28B9ED8F2AF985A7000B95B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				28F0B4EA2AFCE37500C70C69 /* Store */,
+				285275A72AFAB4EA00DFE4CF /* ListComponent */,
+				285275A52AFAB29B00DFE4CF /* Champion */,
 				28B9ED812AF98578000B95B7 /* ContentView.swift */,
 			);
 			path = Views;
@@ -95,14 +252,27 @@
 		28B9ED902AF985B4000B95B7 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				2896B8EF2AFAC0F600983EAE /* Fonts */,
 				28B9ED7F2AF98578000B95B7 /* SKnanoApp.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
 		};
-		28B9ED912AF9865C000B95B7 /* CloudKit */ = {
+		28F0B4EA2AFCE37500C70C69 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				283479352AFD5F0900F65E0B /* StoreList */,
+				28F0B4EB2AFCE45800C70C69 /* ShopView.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		B39825662B06DCB30044FF28 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				B39825672B06DCB30044FF28 /* CloudVM.swift */,
+				B39825682B06DCB30044FF28 /* CloudError.swift */,
+				B39825692B06DCB30044FF28 /* CloudUtility.swift */,
 			);
 			path = CloudKit;
 			sourceTree = "<group>";
@@ -165,8 +335,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284D7AD22AFC1DED00DB7FA7 /* BeaufortforLOL-Heavy.ttf in Resources */,
+				284D7AD72AFC1DED00DB7FA7 /* BeaufortforLOL-Medium.ttf in Resources */,
+				284D7AD92AFC1DED00DB7FA7 /* BeaufortforLOL-Italic.ttf in Resources */,
+				284D7AD42AFC1DED00DB7FA7 /* BeaufortforLOL-Bold.ttf in Resources */,
+				284D7AD62AFC1DED00DB7FA7 /* BeaufortforLOL-LightItalic.ttf in Resources */,
 				28B9ED872AF98579000B95B7 /* Preview Assets.xcassets in Resources */,
+				284D7AC02AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold_Italic.ttf in Resources */,
+				284D7AC32AFC1DD300DB7FA7 /* Spiegel_TT_Bold_Italic.ttf in Resources */,
+				284D7AD12AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic.ttf in Resources */,
+				284D7AD02AFC1DED00DB7FA7 /* BeaufortforLOL-BoldItalic(1).ttf in Resources */,
+				284D7AC22AFC1DD300DB7FA7 /* Spiegel_TT_SemiBold.ttf in Resources */,
+				284D7ABF2AFC1DD300DB7FA7 /* Spiegel_TT_Regular.ttf in Resources */,
+				284D7AD32AFC1DED00DB7FA7 /* BeaufortforLOL-HeavyItalic.ttf in Resources */,
+				284D7ACF2AFC1DED00DB7FA7 /* BeaufortforLOL-MediumItalic.ttf in Resources */,
+				284D7AB72AFC0E3E00DB7FA7 /* Products.plist in Resources */,
 				28B9ED842AF98579000B95B7 /* Assets.xcassets in Resources */,
+				284D7ABE2AFC1DD300DB7FA7 /* Spiegel_TT_Regular_Italic.ttf in Resources */,
+				284D7AC12AFC1DD300DB7FA7 /* Spiegel_TT_Bold.ttf in Resources */,
+				284D7AD52AFC1DED00DB7FA7 /* BeaufortforLOL-Light.ttf in Resources */,
+				285CA68B2AFC25EC00E52112 /* Products.storekit in Resources */,
+				284D7AD82AFC1DED00DB7FA7 /* BeaufortforLOL-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +366,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B398256B2B06DCB30044FF28 /* CloudError.swift in Sources */,
+				B398256C2B06DCB30044FF28 /* CloudUtility.swift in Sources */,
+				283479392AFD5F6F00F65E0B /* BuyButtonStyle.swift in Sources */,
+				284D7AB42AFBFD5C00DB7FA7 /* Title.swift in Sources */,
+				B39825652B06DA500044FF28 /* PushNotificationCloudKit.swift in Sources */,
 				28B9ED822AF98578000B95B7 /* ContentView.swift in Sources */,
+				28F0B4EC2AFCE45800C70C69 /* ShopView.swift in Sources */,
+				28796A202AFEAD6300AA0DF5 /* ListSubView.swift in Sources */,
+				2896B8EE2AFAB8EA00983EAE /* Color.swift in Sources */,
+				285CA68D2AFC2A1900E52112 /* Store.swift in Sources */,
 				28B9ED802AF98578000B95B7 /* SKnanoApp.swift in Sources */,
+				B398256A2B06DCB30044FF28 /* CloudVM.swift in Sources */,
+				285275A92AFAB50600DFE4CF /* ListRowView.swift in Sources */,
+				28F0B4E82AFCE29A00C70C69 /* ChampionsView.swift in Sources */,
+				283479372AFD5F2700F65E0B /* ListCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +511,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SKnano/SKnano.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKnano/Preview Content\"";
-				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				DEVELOPMENT_TEAM = KV78S9S54R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKnano/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eduardo.SKnano;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jairo.Nano4.Group4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,12 +542,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SKnano/SKnano.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKnano/Preview Content\"";
-				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				DEVELOPMENT_TEAM = KV78S9S54R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SKnano/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -354,7 +560,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eduardo.SKnano;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jairo.Nano4.Group4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
