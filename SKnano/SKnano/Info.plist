@@ -38,6 +38,11 @@
 		<string>Spiegel_TT_SemiBold_Italic.ttf</string>
 		<string>Spiegel_TT_SemiBold.ttf</string>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
 	<key>UTImportedTypeDeclarations</key>
 	<array>
 		<dict/>

@@ -83,6 +83,7 @@
 		B39825672B06DCB30044FF28 /* CloudVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudVM.swift; sourceTree = "<group>"; };
 		B39825682B06DCB30044FF28 /* CloudError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudError.swift; sourceTree = "<group>"; };
 		B39825692B06DCB30044FF28 /* CloudUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudUtility.swift; sourceTree = "<group>"; };
+		B398256D2B06DE240044FF28 /* SKnano.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SKnano.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +199,7 @@
 		28B9ED7E2AF98578000B95B7 /* SKnano */ = {
 			isa = PBXGroup;
 			children = (
+				B398256D2B06DE240044FF28 /* SKnano.entitlements */,
 				B39825662B06DCB30044FF28 /* CloudKit */,
 				28B9ED8F2AF985A7000B95B7 /* Views */,
 				28B9ED8E2AF9859C000B95B7 /* Notification */,
@@ -509,10 +511,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SKnano/SKnano.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKnano/Preview Content\"";
-				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				DEVELOPMENT_TEAM = KV78S9S54R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SKnano/Info.plist;
@@ -526,7 +529,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eduardo.SKnano;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jairo.Nano4.Group4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -539,10 +542,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SKnano/SKnano.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SKnano/Preview Content\"";
-				DEVELOPMENT_TEAM = SVGXRR5RRA;
+				DEVELOPMENT_TEAM = KV78S9S54R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SKnano/Info.plist;
@@ -556,7 +560,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Eduardo.SKnano;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jairo.Nano4.Group4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

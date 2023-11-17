@@ -8,15 +8,34 @@
 // Import necessary frameworks
 import SwiftUI
 import CloudKit
+import UserNotifications
 
 // Define a class for handling CloudKit push notifications
 class PushNotificationCloudKit: ObservableObject {
-
+    
     // Initialize the class
     init() {
         // Request permission for notifications and subscribe to notifications when the class is initialized
         requestNotificationPermission()
         subscribeToNotifications()
+        addItem(text: "Raven1")
+    }
+    
+    func addItem(text: String) {
+        print(text)
+        let newMessage = CKRecord(recordType: "Messages")
+        newMessage["text"] = text
+        saveItem(record: newMessage)
+    }
+    
+    func saveItem(record: CKRecord) {
+        CKContainer.default().publicCloudDatabase.save(record) {/*[weak self]*/ returnedRecord, returnedError in
+            if let error = returnedError {
+                print("Error saving record: \(error)")
+            } else {
+                print("Record saved successfully: \(String(describing: returnedRecord))")
+            }
+        }
     }
 
     // Request permission for user notifications
@@ -68,6 +87,9 @@ class PushNotificationCloudKit: ObservableObject {
         // Save the subscription to the public CloudKit database
         CKContainer.default().publicCloudDatabase.save(subscription) { returnedSubscription, error in
             if let error = error {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+                    self.subscribeToNotifications()
+                }
                 // Handle any errors that occur during the subscription process
                 print("Error subscribing to notifications: \(error)")
             } else {

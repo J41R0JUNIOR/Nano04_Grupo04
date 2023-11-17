@@ -17,6 +17,7 @@ class CloudKitUtility {
         let accountStatus = try await CKContainer.default().accountStatus()
         switch accountStatus{
         case .available:
+            print("Avaliable")
             return CKAccountStatus.available
         case .noAccount:
             throw CloudKitError.accountNotfound
