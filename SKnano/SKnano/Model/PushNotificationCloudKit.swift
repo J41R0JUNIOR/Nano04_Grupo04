@@ -18,24 +18,7 @@ class PushNotificationCloudKit: ObservableObject {
         // Request permission for notifications and subscribe to notifications when the class is initialized
         requestNotificationPermission()
         subscribeToNotifications()
-        addItem(text: "Raven1")
-    }
-    
-    func addItem(text: String) {
-        print(text)
-        let newMessage = CKRecord(recordType: "Messages")
-        newMessage["text"] = text
-        saveItem(record: newMessage)
-    }
-    
-    func saveItem(record: CKRecord) {
-        CKContainer.default().publicCloudDatabase.save(record) {/*[weak self]*/ returnedRecord, returnedError in
-            if let error = returnedError {
-                print("Error saving record: \(error)")
-            } else {
-                print("Record saved successfully: \(String(describing: returnedRecord))")
-            }
-        }
+      
     }
 
     // Request permission for user notifications
